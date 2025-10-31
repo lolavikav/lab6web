@@ -4,7 +4,9 @@
 ## Kelas : TI.24.A.4
 
 <img width="496" height="389" alt="Screenshot 2025-10-31 073334" src="https://github.com/user-attachments/assets/2b9f4b4c-a628-4c84-a02d-396eddc3c0ae" />
+
 # Refactor Layout Praktikum 4
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -12,16 +14,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Refactor Layout Praktikum 4</title>
-
   <!-- Link Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
         rel="stylesheet" 
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
         crossorigin="anonymous">
 </head>
-
 <body>
-
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
     <div class="container-fluid">
@@ -41,10 +40,8 @@
       </div>
     </div>
   </nav>
-
   <!-- Container Utama -->
   <div class="container">
-
     <!-- Baris Heading -->
     <div class="row mb-4">
       <div class="col-md-4">
@@ -72,7 +69,6 @@
         </div>
       </div>
     </div>
-
     <!-- Baris Konten Utama dan Sidebar -->
     <div class="row">
       <!-- Konten Utama -->
@@ -87,7 +83,6 @@
           </div>
         </div>
       </div>
-
       <!-- Sidebar -->
       <div class="col-md-4">
         <div class="card mb-4">
@@ -101,7 +96,6 @@
       </div>
     </div>
   </div>
-
   <!-- Script Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
           integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
@@ -111,14 +105,10 @@
 ```
 
 Buat folder baru dengan nama `lab6_bootstrap`. lalu tambahkan file di dalamnya dengan nama `index.html` di dalam folder tersebut. Kode HTML di atas merupakan rancangan halaman web sederhana yang menggunakan Bootstrap 5 untuk membuat tampilan lebih rapi, responsif, dan modern. Struktur halaman terdiri dari tiga bagian utama, yaitu navbar, konten utama, dan sidebar, semuanya ditempatkan di dalam container Bootstrap agar memiliki tata letak yang teratur.
-
 Pada bagian `<body>`, terdapat navbar berwarna gelap di bagian atas dengan nama “Praktikum 6” dan dua menu navigasi yaitu Home dan Artikel. Navbar ini dibuat menggunakan komponen `navbar` Bootstrap.
-
 Selanjutnya di dalam `<div class="container">`, terdapat dua bagian utama:
-
 1. Baris Heading `(<div class="row">)` yang berisi tiga kolom `(col-md-4)`. Masing-masing kolom menggunakan komponen `card` yang menampilkan judul “Heading 1–3” beserta deskripsi singkatnya.
 2. Baris Konten Utama dan Sidebar yang terdiri dari dua kolom: kolom kiri `(col-md-8)` untuk konten utama dan kolom kanan `(col-md-4)` untuk sidebar. Keduanya juga menggunakan komponen `card` agar tampil rapi dan seragam.
-
 Terakhir, Bootstrap JavaScript ditambahkan di bagian bawah agar fitur interaktif seperti tombol menu di navbar dapat berfungsi dengan baik. Secara keseluruhan, kode ini menampilkan layout halaman web sederhana dengan struktur grid yang bersih tanpa menggunakan CSS manual.
 
 Hasil di browser:
@@ -168,7 +158,6 @@ Hasil di browser:
 Kode HTML di atas merupakan pembuatan form kontak sederhana dengan tampilan modern menggunakan Bootstrap 5. Struktur utamanya dimulai dengan deklarasi `<!DOCTYPE html>` dan bahasa halaman diatur ke bahasa Indonesia `(lang="id")`. Pada bagian `<head>`, terdapat meta tag untuk mengatur karakter UTF-8 dan viewport agar tampilan halaman menyesuaikan ukuran layar perangkat, sehingga form terlihat rapi baik di komputer maupun di smartphone. Selain itu, halaman juga memuat link Bootstrap dari CDN untuk memanfaatkan gaya dan komponen siap pakai tanpa harus mengunduh file tambahan.
 
 Di dalam `<body>, terdapat sebuah container Bootstrap dengan margin atas (mt-5) agar posisi form tidak menempel di tepi atas halaman. Judul “Form Kontak” ditampilkan di tengah menggunakan kelas text-center dan diberi jarak bawah `(mb-4)`. Setelah itu terdapat elemen `<form>` yang berisi tiga input utama, masing-masing dibungkus dalam `<div class="mb-3">` untuk memberi jarak antar elemen form.
-
 - Input pertama adalah Nama Lengkap, menggunakan tipe teks `(type="text") dengan label dan placeholder sebagai petunjuk isi.
 - Input kedua adalah Alamat Email, menggunakan `type="email"` yang otomatis memvalidasi format email saat dikirim.
 - Input ketiga adalah Pesan, menggunakan elemen `<textarea>` agar pengguna bisa menulis pesan lebih panjang.
