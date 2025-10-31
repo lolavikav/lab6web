@@ -157,7 +157,8 @@ Hasil di browser:
 
 Kode HTML di atas merupakan pembuatan form kontak sederhana dengan tampilan modern menggunakan Bootstrap 5. Struktur utamanya dimulai dengan deklarasi `<!DOCTYPE html>` dan bahasa halaman diatur ke bahasa Indonesia `(lang="id")`. Pada bagian `<head>`, terdapat meta tag untuk mengatur karakter UTF-8 dan viewport agar tampilan halaman menyesuaikan ukuran layar perangkat, sehingga form terlihat rapi baik di komputer maupun di smartphone. Selain itu, halaman juga memuat link Bootstrap dari CDN untuk memanfaatkan gaya dan komponen siap pakai tanpa harus mengunduh file tambahan.
 
-Di dalam `<body>, terdapat sebuah container Bootstrap dengan margin atas (mt-5) agar posisi form tidak menempel di tepi atas halaman. Judul “Form Kontak” ditampilkan di tengah menggunakan kelas text-center dan diberi jarak bawah `(mb-4)`. Setelah itu terdapat elemen `<form>` yang berisi tiga input utama, masing-masing dibungkus dalam `<div class="mb-3">` untuk memberi jarak antar elemen form.
+Di dalam `<body>`, terdapat sebuah container Bootstrap dengan margin atas (mt-5) agar posisi form tidak menempel di tepi atas halaman. Judul “Form Kontak” ditampilkan di tengah menggunakan kelas text-center dan diberi jarak bawah `(mb-4)`. Setelah itu terdapat elemen `<form>` yang berisi tiga input utama, masing-masing dibungkus dalam 
+`<div class="mb-3">` untuk memberi jarak antar elemen form.
 - Input pertama adalah Nama Lengkap, menggunakan tipe teks `(type="text") dengan label dan placeholder sebagai petunjuk isi.
 - Input kedua adalah Alamat Email, menggunakan `type="email"` yang otomatis memvalidasi format email saat dikirim.
 - Input ketiga adalah Pesan, menggunakan elemen `<textarea>` agar pengguna bisa menulis pesan lebih panjang.
